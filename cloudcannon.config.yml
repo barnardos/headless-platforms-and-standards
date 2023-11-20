@@ -26,7 +26,7 @@ _enabled_editors:
 _inputs: {}
 _select_data: {}
 _structures: {}
-_editables: {
+_editables: 
   content:
     bold: true
     italic: true
@@ -36,6 +36,5 @@ _editables: {
     table: true
     undo: true
     redo: true
-}
 data_config: {}
 timezone: Etc/UTC
