@@ -15,14 +15,14 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-platforms:
-    path: platforms
-    output: true
-    filter: strict
-    icon: notes
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
+  platforms:
+      path: platforms
+      output: true
+      filter: strict
+      icon: notes
+      disable_add: false
+      disable_add_folder: false
+      disable_file_actions: false
 _enabled_editors:
   - content
   - data
