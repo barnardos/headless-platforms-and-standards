@@ -1,6 +1,6 @@
 # Rita's Page title
 
-Testing new page from cloudcannon
+Testing new page from cloudcanno
 
 Hello all. Welcome
 
