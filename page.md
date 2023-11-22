@@ -1,3 +1,8 @@
+---
+title: testing
+testurl: hello
+---
+
 # Rita's Page title
 
 Testing new page from cloudcanno
