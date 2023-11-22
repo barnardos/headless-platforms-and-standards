@@ -1,6 +1,7 @@
 ---
 title: testing
 testurl: hello
+layout: layout.liquid
 ---
 
 # Rita's Page title
