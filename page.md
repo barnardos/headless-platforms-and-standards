@@ -1,7 +1,3 @@
----
-layout: layout.liquid
----
-
 # Rita's Page title
 
 Testing new page from cloudcanno
