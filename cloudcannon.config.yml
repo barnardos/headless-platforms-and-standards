@@ -15,6 +15,12 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    editables:
+      text
+      block
+      link
+      image
+      content
   platforms:
       path: platforms
       output: true
