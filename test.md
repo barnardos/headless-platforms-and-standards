@@ -1,1 +1,0 @@
-Let this be the editable bit in the HTML or liquid file

@@ -3,12 +3,8 @@ title: Online Platforms
 
 ---
 
-{%- for i in (1..5) %}
-# how does this come up?
+I would like this bit to be editable
 
-Testing this index page with md markup and make further changes
-{%- endfor %}
-
-{% include "test.md" %}
+{% include "test.html" %}
 
 
