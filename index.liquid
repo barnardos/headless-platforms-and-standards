@@ -43,7 +43,18 @@ layout: layout.liquid
 	</ul>
 </div>
 
-<h2>Our platforms</h2>
+<section id="platforms">
+  <h2>Our platforms not working</h2>
+  <div class="cards-grid">
+  {%- for platform in collections.platforms -%}
+  <div class="card">
+          <h3 class="card-title card-title--{{ platform.data.theme }}"><a href="{{ platform.url }}">{{ platform.data.pageTitle }}</a></h3>
+          <p class="card-summary">{{platform.data.extract}}</p>
+  </div>
+{{ standards| test }}
+  {%- endfor -%}
 
+</div>
 
+</section>
 

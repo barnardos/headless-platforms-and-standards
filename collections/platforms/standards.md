@@ -1,7 +1,8 @@
 ---
 title: Our services platform | Barnardo's
-pageTitle: Our services platform
-
+pageTitle: Our standards platform
+theme: standards
+extract: How we build for success
 ---
 
 <div class="text">

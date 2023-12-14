@@ -7,10 +7,21 @@ title: TESTING
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="{{ metadata.subtitle }}">
-
 		<title>{{ title }}</title>
+    <link rel="stylesheet" href="/bundle.css">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+		<link rel="icon" href="/icon.svg" type="image/svg+xml">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	</head>
 	<body>
-		{{ content }}
+    <header class="layout">
+		{% comment %}	<a href="/" class="logo">{% include 'html/logo.html' %}</a> {% endcomment %}
+		</header>
+    <h1 class="hero{% if theme %} hero--{{ theme }}{% endif %}"><span class="layout">{{ pageTitle }}</span></h1>
+    <div class="layout">
+      <main>
+        {{ content }}
+      </main>
+    </div>
 	</body>
 </html>

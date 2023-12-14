@@ -1,0 +1,4 @@
+{
+"layout" : "layout.liquid",
+"permalink": "platforms/{{ page.fileSlug }}/index.html"
+}

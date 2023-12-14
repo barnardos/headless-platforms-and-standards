@@ -1,0 +1,44 @@
+.cards-grid {
+	display: grid;
+	gap: 3rem;
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 30ch), 1fr));
+}
+
+.card {
+	border: 1px solid var(--grey-medium);
+	border-radius: 4px;
+}
+
+.card-title {
+	display: block;
+	font-family: proxima-nova, Helvetica, Arial, sans-serif;
+	font-size: var(--step-3);
+	font-weight: bold;
+}
+
+.card-title--standards {
+	background: var(--blue-medium);
+}
+
+.card-title--services {
+	background: var(--purple-medium);
+}
+
+.card-title--content {
+	background: var(--orange-medium);
+}
+
+.card-title--fundraising {
+	background: var(--pink-medium);
+}
+
+.card-title a {
+	color: white;
+	display: block;
+	padding: 20px;
+}
+
+.card-summary {
+	margin: 0;
+	padding: 0 20px 20px;
+}
